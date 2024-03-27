@@ -7,7 +7,7 @@
     box-sizing:border-box;
 }
 body{
-    background: #ccc;
+    background: #ff9edd;
 font-family:sans-serif;
 font-size:18px;
 line-height:30px;
@@ -42,4 +42,33 @@ main p{
     left: 50%;
     top: -14px;
     transform: translateX(-50%);
+    z-index: 10;
 }
+
+.oper{
+    position: fixed;
+    top: 300px;
+    left: 0;
+}
+
+.rel_p{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.stic_p{
+    background-color: #ffbcdc88;
+    position: sticky;
+    top: 0;
+}
+
+.bird{
+    position: absolute;
+    left: 40%;
+    top: -45px;
+    z-index: 9;
+
+}
+
+
